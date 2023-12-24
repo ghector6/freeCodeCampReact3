@@ -1,6 +1,15 @@
 import './App.css';
 import freeCodeCampLogo from "./imagenes/freecodecamp-logo.png"
 function App() {
+
+  const handleClick = () => {
+    console.log("Click");
+  }
+
+  const handleRestart = () => {
+    console.log("Reiniciar");
+  }
+
   return (
     <div className="App">
        <div className="freecodecamp-logo-contenedor">
