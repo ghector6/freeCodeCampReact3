@@ -9,6 +9,18 @@ function App() {
            src={freeCodeCampLogo}
            alt="Logo de freeCodeCamp"/>
        </div>
+      <div className="contenedor-principal">
+        <Boton
+          texto="Click"
+          esBotonDeClick={true}
+          handleClick={}
+        />
+        <Boton
+          text="Reiniciar"
+          esBotonDeClick={false}
+          handleClick={}
+        />
+      </div>
     </div>
   );
 }
