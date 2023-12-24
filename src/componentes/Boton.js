@@ -1,8 +1,9 @@
 import React from 'react';
 
-function Boton({texto}){
+function Boton({texto, esBotonDeClick}){
   return(
-    <button>
+    <button
+      className={esBotonDeclick ? "boton-click" : "boton-reiniciar"}>
       {texto}
     </button>
   )
