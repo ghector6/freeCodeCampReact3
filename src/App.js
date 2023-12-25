@@ -1,5 +1,4 @@
 import './App.css';
-import "./stylesheets/Boton.css";
 import freeCodeCampLogo from "./imagenes/freecodecamp-logo.png"
 import Boton from "./componentes/Boton.js";
 function App() {
