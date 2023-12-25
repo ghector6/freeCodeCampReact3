@@ -1,5 +1,6 @@
 import './App.css';
 import freeCodeCampLogo from "./imagenes/freecodecamp-logo.png"
+import Boton from "./componentes/Boton.js";
 function App() {
 
   const handleClick = () => {
@@ -22,12 +23,12 @@ function App() {
         <Boton
           texto="Click"
           esBotonDeClick={true}
-          handleClick={}
+          handleClick={handleClick}
         />
         <Boton
-          text="Reiniciar"
+          texto="Reiniciar"
           esBotonDeClick={false}
-          handleClick={}
+          handleClick={handleRestart}
         />
       </div>
     </div>
